@@ -77,6 +77,10 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Databases files
+/main/.dbdata
+/admin/.dbdata
+
 # IPython
 profile_default/
 ipython_config.py
