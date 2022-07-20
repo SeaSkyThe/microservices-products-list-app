@@ -8,7 +8,7 @@ The first is built with Django, and the second with Flask, they communicate with
 To run this service, you will have to have Docker installed.
 Steps:
 - Go inside the admin/ folder
-- Run: docker-compose up
+- Run: docker-compose up 
 - See the magic!
 
 ### Microservice 2 - MAIN - Built with Flask:

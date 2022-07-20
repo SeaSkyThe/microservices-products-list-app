@@ -5,7 +5,8 @@ services:
       context: .
       dockerfile: Dockerfile
     command: python main.py
-
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     ports:
       - 8001:5000
     environment:
