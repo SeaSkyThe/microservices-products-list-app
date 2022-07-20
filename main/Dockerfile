@@ -8,4 +8,3 @@ RUN pip install -r requirements.txt
 COPY . /app
 RUN chown -Rh $user:$user /app
 USER $user
-CMD python main.py 

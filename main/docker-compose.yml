@@ -4,6 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    command: python main.py
+
     ports:
       - 8001:5000
     environment:
@@ -13,6 +15,14 @@ services:
     depends_on:
       - db
     user: 1000:1000
+
+  queue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: 'python consumer.py'
+    depends_on:
+      - db
 
   db:
     image: mysql:5.7.22
