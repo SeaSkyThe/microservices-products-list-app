@@ -19,7 +19,7 @@ Steps:
 
 
 
-Extras:
+### Extras:
 If you make any change that need to be applied on the databases, access the terminal of the correct Docker container with:
 - docker exec -it <CONTAINER-ID> /bin/bash
 
