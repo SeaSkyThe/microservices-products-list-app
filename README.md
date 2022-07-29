@@ -17,7 +17,11 @@ Steps:
 - Run: docker-compose up
 - See the magic!
 
-
+### Frontend 
+Steps:
+- Go inside the react-frontend/ folder
+- Run: npm start
+- The app will run, and you can access the admin page with 'localhost:3000/admin/products' and the main page with 'localhost:3000'.
 
 ### Extras:
 If you make any change that need to be applied on the databases, access the terminal of the correct Docker container with:
